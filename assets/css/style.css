@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url(../img/bg-img.jpg) center/cover no-repeat;
+  font-size: 2rem;
+  position: relative;
+}
+
+section {
+  width: 15em;
+  height: 10em;
+  background: #f62b54;
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+article {
+  position: relative;
+}
+
+h2 {
+  text-decoration: underline;
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+}
+
+p {
+  width: 15em;
+  font-size: 0.7em;
+  padding: 1em 0;
+  position: absolute;
+  top: 6.5em;
+  left: 2em;
+}
+
+button {
+  width: 1.5em;
+  height: 1.5em;
+  background: white;
+  border: none;
+  color: #f62b54;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+button:hover {
+  cursor: pointer;
+}
